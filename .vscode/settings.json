@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "vscode",
-        "repo"
+        "repo",
+        "swipe-cards"
     ]
 }
