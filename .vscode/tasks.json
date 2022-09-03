@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "yarn",
+			"task": "android",
+			"problemMatcher": [],
+			"label": "yarn: android",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
