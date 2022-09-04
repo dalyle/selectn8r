@@ -53,6 +53,13 @@ const cards2 = [
   {name: '13', image: 'https://media.giphy.com/media/OVHFny0I7njuU/giphy.gif'},
 ]
 
+import { createRoot } from 'react-dom/client';
+const container = document.getElementById('root');
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
+
+root.render(<App />);
+
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -91,8 +98,12 @@ export default class App extends React.Component {
 
   }
 
+
   render() {
-    return (
+
+
+
+    return root.render(
       <SwipeCards
         cards={this.state.cards}
         loop={false}
