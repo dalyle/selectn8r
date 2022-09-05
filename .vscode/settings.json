@@ -4,5 +4,8 @@
         "repo",
         "swipe-cards",
         "react"
-    ]
+    ],
+
+    "coddx.taskBoard.fileList":
+        "docs/TODO.md" (comma separated, use your file paths)
 }
