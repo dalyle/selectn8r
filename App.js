@@ -3,6 +3,8 @@
 import React from 'react';
 import {StyleSheet, Text, View, Image} from 'react-native';
 
+// Load Data - `cards` and `cards2`
+import { cards, cards2 } from './data/dogs.js';
 import SwipeCards from 'react-native-swipe-cards';
 
 class Card extends React.Component {
